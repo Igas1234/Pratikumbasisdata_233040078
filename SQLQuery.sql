@@ -1,4 +1,4 @@
--- 1. Mengembalikan gender berdasarkan titel kesopanann
+-- 1.Menggunakan Tabel HR.Employees, tulis pernyataan SELECT yang mengembalikan gender untuk setiap karyawan berdasarkan titel kesopanan. Berupa 'Ms.' dan 'Mrs.’ untuk ‘female’, ‘Mr.’ unruk ‘Male’ dan dalam semua kasus lain (misalnya, 'Dr.') mengembalikan 'Unknown’:
 SELECT 
     empid, 
     firstname, 
@@ -12,7 +12,9 @@ SELECT
 FROM 
     HR.Employees;
 
--- 2. Menghitung jumlah total pesanan dan total kuantitas untuk setiap pelanggan
+--2.munculkan pelanggan AS, dan untuk setiap pelanggan kembalikan jumlah total pesanan dan jumlah total:
+--  table yang digunakan: Sales.Customers, Sales.Orders, and Sales.OrderDetails
+
 SELECT 
     c.custid, 
     COUNT(o.orderid) AS numorders, 
@@ -37,7 +39,9 @@ FROM
 LEFT JOIN 
     Sales.Orders AS o ON c.custid = o.custid;
 
--- 4. Mengembalikan semua pesanan yang dilakukan pada hari terakhir aktivitas
+-- 4. 4.	Munculkan pelanggan dan pesanan mereka, termasuk pelanggan yang tidak melakukan pemesanan:
+--table yang digunakan: Sales.Customers and Sales.Orders
+
 SELECT 
     orderid, 
     orderdate, 
