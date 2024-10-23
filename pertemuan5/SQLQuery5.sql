@@ -1,0 +1,15 @@
+INSERT INTO dbo.Dosen_Wali (NIP, nama, tanggal_lahir, alamat) 
+VALUES 
+('3235172', 'fabregas1', '2024-01-02', 'JL. CIKUNIR RAYA GANG H. ABAS RT 01 RW 02 JAKA MULYA. Desa/Kelurahan: JAKA MULYA.'),
+('3235172', 'fabregas2', '2024-01-02', 'JL. CIKUNIR RAYA GANG H. ABAS RT 01 RW 02 JAKA MULYA. Desa/Kelurahan: JAKA MULYA.'),
+('3235172', 'fabregas3', '2024-01-02', 'JL. CIKUNIR RAYA GANG H. ABAS RT 01 RW 02 JAKA MULYA. Desa/Kelurahan: JAKA MULYA.'),
+('3235172', 'fabregas4', '2024-01-02', 'JL. CIKUNIR RAYA GANG H. ABAS RT 01 RW 02 JAKA MULYA. Desa/Kelurahan: JAKA MULYA.'),
+('3235172', 'fabregas5', '2024-01-02', 'JL. CIKUNIR RAYA GANG H. ABAS RT 01 RW 02 JAKA MULYA. Desa/Kelurahan: JAKA MULYA.'),
+('3235172', 'fabregas6', '2024-01-02', 'JL. CIKUNIR RAYA GANG H. ABAS RT 01 RW 02 JAKA MULYA. Desa/Kelurahan: JAKA MULYA.'),
+('3235172', 'fabregas7', '2024-01-02', 'JL. CIKUNIR RAYA GANG H. ABAS RT 01 RW 02 JAKA MULYA. Desa/Kelurahan: JAKA MULYA.'),
+('3235172', 'fabregas8', '2024-01-02', 'JL. CIKUNIR RAYA GANG H. ABAS RT 01 RW 02 JAKA MULYA. Desa/Kelurahan: JAKA MULYA.'),
+('3235172', 'fabregas9', '2024-01-02', 'JL. CIKUNIR RAYA GANG H. ABAS RT 01 RW 02 JAKA MULYA. Desa/Kelurahan: JAKA MULYA.'),
+('3235172', 'fabregas10', '2024-01-02', 'JL. CIKUNIR RAYA GANG H. ABAS RT 01 RW 02 JAKA MULYA. Desa/Kelurahan: JAKA MULYA.');
+
+
+SELEct * from dbo.Dosen_Wali;

@@ -1,0 +1,1 @@
+alter table dbo.jurusan alter column nama_jurusan varchar (255);
